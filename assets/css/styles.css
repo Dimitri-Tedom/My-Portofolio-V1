@@ -1,0 +1,373 @@
+.circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav ul li a {
+    font-size: 15px;
+    transition: 0.2s;
+    padding: 0 15px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+    transition: 0.2s;
+    color: #0FEEE4;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+    list-style: none;
+
+}
+
+nav {
+    display: flex;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    font-family: "work sans", sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+#AboutMe {
+    display: flex;
+    background-color: white;
+    width: 98%;
+    height: 98%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#article {
+    width: 350px;
+    padding: 15px;
+    float: left;
+    text-align: center;
+
+
+}
+
+#article img {
+    width: 370px;
+    float: left;
+    height: 100%;
+}
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.aboutme-section {
+
+    border-radius: 20%;
+    border-color: lightcoral;
+    border-right-width: 300%;
+    border-left-color: rgb(240, 128, 128);
+    width: 100%;
+
+}
+
+#aboutme-title {
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    float: left;
+    text-align: center;
+    /* text-underline-position: above; */
+    background-color: white;
+    display: flex;
+    height: 8%;
+    color: #180332;
+
+}
+
+.aboutme {
+    width: 100px;
+    max-width: 1100px;
+    height: auto;
+    text-align: center;
+    padding: 40px 50px 70px;
+    margin: 0 auto;
+    box-shadow: 20px 10px 0px rgb(0 0 0 / 40%), -10px -10px 0px rgb(255 114 114 /80%);
+
+}
+
+.aboutme-image {
+    height: 800px;
+    width: 800px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+
+}
+
+.projects {
+    padding: 5px;
+    margin: 5%;
+    text-align: center;
+    width: 90%;
+    height: auto;
+}
+
+#projects h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.emotion-connect {
+    width: 400px;
+    height: 400px;
+    background: white;
+    background-image: url(../img/EmotionAI1.jpeg);
+    position: relative;
+    border-radius: 20px;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.GBHS-Myo {
+    width: 400px;
+    height: 400px;
+    background: white;
+    background-image: url(../img/Mbal.jpeg);
+    position: relative;
+    border-radius: 20px;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+#text {
+    position: absolute;
+    width: 90%;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    z-index: 2;
+    background-color: white;
+    overflow: hidden;
+    transform: 0.2s;
+}
+
+#text:hover {
+    height: 120px;
+    transition: 0.3s;
+}
+
+.emotion-link {
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    width: 160px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+
+#text h3 {
+    margin-top: 2px;
+    color: black;
+}
+
+.HummanVsAi {
+    width: 400px;
+    height: 400px;
+    background: white;
+    background-image: url(../img/OIG1.jpeg);
+    position: relative;
+    border-radius: 20px;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact h2 {
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.contact p {
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.contact-details {
+    color: white;
+    font-size: 20px;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 75px 0 50px 0;
+    background-color: rgb(3, 3, 3, 45%);
+}
+
+.contact-form {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    color: white;
+}
+
+.contact-form label {
+    display: block;
+    left: 5px;
+    position: relative;
+    justify-content: center;
+    text-align: left;
+}
+
+.message textarea {
+    border-radius: 10%;
+    border: 10px;
+
+}
+
+.contact-details {
+    flex: 1;
+    margin-right: 50px;
+    text-align: left;
+    justify-content: space-between;
+    position: relative;
+}
+
+.contact-details input {
+    width: 100px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px;
+    margin-bottom: 20px;
+    /* margin-left: 5px; */
+}
+
+.contact-message label {
+    margin-left: 0%;
+    margin-bottom: 20px;
+}
+
+.contact-message {
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.contact-message button {
+    border-radius: 7px;
+    /* border-color: #ff27ff; */
+    border-style: double;
+    padding: 15px;
+    background-color: lightblue;
+    margin-top: 30px;
+    color: blue;
+    left: 27rem;
+    position: relative;
+    width: 80px;
+
+}
+
+.contact-message button:hover {
+    color: #180332;
+    transition: 0.3s;
+}
+
+footer {
+    height: 90px;
+    background-color: #180332;
+}
+
+footer .footer {
+    color: white;
+    display: flex;
+    background-color: #180332;
+    height: 100%;
+    align-items: center;
+}
+
+.social-media {
+    /* left: .8rem; */
+    width: auto;
+    font-size: 200%;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.social-media a,
+i {
+    color: white;
+    transition: 0.2s;
+}
+
+.social-media a,
+i:hover {
+    color: lightblue;
+    transition: 0.2s;
+}
+
+.contact-form input {
+    width: 300px;
+    height: 40px;
+}
+
+.text {
+    text-align: center;
+    justify-content: left;
+    display: flex;
+    padding: 10px;
+}
+
+.copyright {
+    color: white;
+    font-size: 6px;
+}

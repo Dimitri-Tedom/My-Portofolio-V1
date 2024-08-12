@@ -1,0 +1,29 @@
+table,tr,td{
+    border-color: black;
+    border-width: 2px;
+    border-collapse: collapse;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.italic{
+    font:italic;
+}
+i{
+   text-size-adjust: 20px; 
+   text-align: left;
+}
+b{
+    text-size-adjust: 20px;
+}
+.matierePolice{
+    font-family: ;
+}
+#bestSubject{
+    color: white;
+    background-color: blue;
+}
+/* #popins{
+    font-type= arial;
+} */

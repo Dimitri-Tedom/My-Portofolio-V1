@@ -1,0 +1,7 @@
+.image{
+    border-image: 16px;
+    height: 560px;
+    width: 460px;
+    border-image-width: 16px;
+    border-width: 16px;
+}
